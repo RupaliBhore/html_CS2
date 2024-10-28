@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Photo App</title>
+    <style>
+        /* CSS Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            text-align: left;
+        }
+        .container {
+            width: 100%;
+            margin: auto;
+            text-align: left;
+        }
+        h1, h2 {
+            color: #333;
+            text-align: left;
+        }
+        .cat {
+            color: #030000;
+            text-decoration: none;
+        }
+        .cat-lists, .cat-table, .summary-text {
+            margin-top: 20px;
+        }
+        ul, ol {
+            margin-left: 20px;
+        }
+        li {
+            margin: 5px 0;
+        }
+        .cat-table table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        .cat-table th, .cat-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        .cat-table th {
+            background-color: #f2f2f2;
+        }
+        .summary-text strong {
+            font-weight: bold;
+        }
+        .summary-text b {
+            font-weight: bold;
+        }
+        .summary-text i {
+            font-style: italic;
+        }
+        .summary-text em {
+            font-style: italic;
+        }
+        /* Set all images to the same dimensions */
+        .cat-image {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            display: block;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <h1>Cat Photo App</h1>
+        <h2>Cat photo</h2>
+
+        <!-- Link Section -->
+        <p>
+           <a href="https://example.com/catphotos" class="cat"> Click here to view more <a href="gg.com"> cat photos.</a>(anchor tag)</a>
+                  
+        </p>
+        
+        <!-- Image Section -->    
+        <img src="./photo/cat11.jpg" alt="Cat" class="cat-image">
+        
+        <!-- Cat Lists Section -->
+         <h2>Cat Lists</h2>
+        <div class="cat-lists">
+            <h2>Things Cats Love:</h2>
+            <ul>
+                <li>Catnip</li>
+                <li>Laser pointers</li>
+                <li>Lasagna</li>
+            </ul>
+            <img src="./photo/las.jpg" alt="Cats love lasagna" class="cat-image">
+
+            <h2>Top 3 Things Cats Hate:</h2>
+            <ol>
+                <li>Flea problems</li>
+                <li>Thunder</li>
+                <li>Other cats</li>
+            </ol>
+            <img src="./photo/cat22.jpg" alt="Cats hate other cats" class="cat-image">
+        </div>
+
+        <!-- Cat Table Section -->
+        <div class="cat-table">
+            <h2>Cat Table</h2>
+            <table>
+                <tr>
+                    <th>Cat 1</th>
+                    <th>Cat 2</th>
+                    <th>Cat 3</th>
+                </tr>
+                <tr>
+                    <td rowspan="2">Cat-row 1 Cat-col 1</td>
+                    <td>Cat-row 1 Cat-col 2</td>
+                    <td>Cat-row 1 Cat-col 3</td>
+                </tr>
+                <tr>
+                    <td >Cat-row 2 Cat-col 1</td>
+                    <td>Cat-row 2 Cat-col 2</td>
+                    <!-- <td>Cat-row 2 Cat-col 3</td> -->
+                </tr>
+                <tr>
+                    <td>Cat-row 3 Cat-col 1</td>
+                    <td>Cat-row 3 Cat-col 2</td>
+                    <td>Cat-row 3 Cat-col 3</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Summary Section -->
+        <div class="summary-text">
+            <h2>Summary</h2>
+            <p>
+                <strong>This is a strong tag:</strong> Lorem ipsum dolor sit amet.
+                <b>This is a b tag:</b> consectetur adipisicing elit. Dolores.
+                <i>This is an i tag:</i> quo ad dolor illum nam delectus error.
+                <em>This is an em tag:</em> sed voluptatibus harum, laudantium a cupiditate eveniet natus amet nostrum ab numquam.
+            </p>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe cumque magni velit dolor placeat! Enim error mollitia iste sint repellat nemo. Earum ipsum repellendus explicabo. Voluptatibus pariatur rem eaque corporis.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
